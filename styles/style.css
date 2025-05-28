@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f7f8fc, #e2e6f3);
+    color: #333;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    color: #222c5b;
+}
+
+.subheading {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.info-card {
+    background: #f0f4ff;
+    border-left: 6px solid #4a6ee0;
+    padding: 20px 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(74, 110, 224, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: scale(1.02);
+}
+
+.info-card p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #2e2e2e;
+}
+
+#add-btn {
+    display: block;
+    margin: 30px auto 0;
+    padding: 12px 25px;
+    font-size: 1em;
+    background-color: #4a6ee0;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+#add-btn:hover {
+    background-color: #374bb5;
+}
